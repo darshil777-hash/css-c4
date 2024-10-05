@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(0, 0, 10);
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+h1{
+    color: rgb(100, 100, 224);
+}
+
+ul > li{
+    font-weight: bold;
+}
+
+h1 + p{
+    background-color: gray;
+}
+
+a:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+p::first-letter{
+    font-size: 200%;
+    color: gray;
+}
+
+ul li::before{
+    content: "🚀";
+}
+
+ul li:nth-child(2){
+    background-color: gray;
+}
